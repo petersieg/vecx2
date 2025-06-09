@@ -12,6 +12,8 @@ Requirements
 * `SDL2`
 * `SDL2_image`
 * `SDL2_gfx`
+* Some external dialog programs. On Mac Sonoma it runs out of the box.
+* On elementaryos8 I had to do a "sudo apt install zenity".
 
 Usage
 -----
