@@ -6,6 +6,7 @@ vecx
 * SPDX-License-Identifier: Zlib: https://en.wikipedia.org/wiki/Zlib_License
 * Copyright (c) 2014 - 2024 Guillaume Vareille http://ysengrin.com
 * git clone http://git.code.sf.net/p/tinyfiledialogs/code tinyfd
+* Allow for bigger size compile (-DSIZEX2). See osint.c and Makefile
 
 Requirements
 ------------
