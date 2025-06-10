@@ -219,14 +219,22 @@ int main(int argc, char *argv[]){
 		exit(-1);
 	}
 	/** SDL_CreateWindowAndRenderer(330*3/2, 410*3/2, SDL_WINDOW_RESIZABLE, &screen, &renderer); */
+#ifdef SIZEX2
+	SDL_CreateWindowAndRenderer(660, 820, SDL_WINDOW_RESIZABLE, &screen, &renderer);
+#else
 	SDL_CreateWindowAndRenderer(330, 410, SDL_WINDOW_RESIZABLE, &screen, &renderer);
+#endif
 	if(screen == NULL || renderer == NULL){
 		fprintf(stderr, "Failed to initialize SDL window/renderer: %s\n", SDL_GetError());
 		exit(-2);
 	}
 
 	/** resize(330*3/2, 410*3/2); */
+#ifdef SIZEX2
+	resize(660, 820);
+#else
 	resize(330, 410);
+#endif
 
 	if(argc > 1)
 		sprintf(cartfilename,"%s",argv[1]);
