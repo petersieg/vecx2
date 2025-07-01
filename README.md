@@ -20,6 +20,13 @@ Usage
 -----
 * Buttons: asdf + cursor keys
 
+DMG
+---
+* Compiled under Big Sur.
+* Build App from information given here: https://stackoverflow.com/questions/1596945/building-osx-app-bundle
+* and using this tool: https://github.com/auriamg/macdylibbundler
+* DMG build with hdd tool from directory
+* Runs also under Sonoma. Expected to run fom Big Sur upto ..
 
 Authors
 -------
