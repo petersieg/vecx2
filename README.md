@@ -27,6 +27,7 @@ DMG
 * and using this tool: https://github.com/auriamg/macdylibbundler
 * DMG build with hdd tool from directory
 * Runs also under Sonoma. Expected to run fom Big Sur upto ..
+* vecx-HS.dmg compiled under High Sierra - rund from HS onwards ..
 
 Authors
 -------
