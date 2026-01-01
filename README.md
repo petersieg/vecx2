@@ -28,6 +28,8 @@ DMG
 * DMG build with hdd tool from directory
 * Runs also under Sonoma. Expected to run fom Big Sur upto ..
 * vecx-HS.dmg compiled under High Sierra - rund from HS onwards ..
+* vecx-Lion.dmg compiled under Lion - but since no dialog app for tinyfiledialog is found, you need to specify rom path!
+  So for ex: rom/pinball.bin
 
 Authors
 -------
